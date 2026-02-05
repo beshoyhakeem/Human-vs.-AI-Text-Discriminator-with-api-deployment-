@@ -8,18 +8,18 @@ This project is designed to distinguish between human-written and AI-generated t
 ### Tech Stack
 `Python` | `torch` | `sklearn` | `transformers` | `numpy` | `pandas` |`matplotlib` | `PIL`| `fastapi`
 
-### Repository Structure
-text-classifier-api
-├── app/
-│   ├── bert_ai_human_classifier/   → model files
-│   ├── dockerfile                              → Docker configuration
-│   ├── static/                    				   → static assets (CSS)
-│   ├── templates/              			   → HTML templates
-│   └── main.py                                  → application entry point
-├── Notebooks/                                 → model training, data preparation & exploration
-├── inference/                                    → screenshots form the web page
-├── README.md
-└── requirements.txt
+### Repository Structure  
+text-classifier-api  
+├── app/  
+│   ├── bert_ai_human_classifier/   → model files  
+│   ├── dockerfile                              → Docker configuration  
+│   ├── static/                    				   → static assets (CSS)  
+│   ├── templates/              			   → HTML templates  
+│   └── main.py                                  → application entry point  
+├── Notebooks/                                 → model training, data preparation & exploration  
+├── inference/                                    → screenshots form the web page  
+├── README.md  
+└── requirements.txt  
 
 ### 📊 Results
 #### I created a fast api interface with a web page to run the project.
