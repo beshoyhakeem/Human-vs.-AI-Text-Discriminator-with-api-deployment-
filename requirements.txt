@@ -4,4 +4,4 @@ transformers==4.38.2
 torch==2.2.1
 sentencepiece==0.2.0
 python-multipart==0.0.6
-numpy<2  # Temporary fix for NumPy 2.0 compatibility
+numpy<2  
