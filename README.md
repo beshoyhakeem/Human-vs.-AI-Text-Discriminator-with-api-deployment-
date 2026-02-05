@@ -8,7 +8,8 @@ This project is designed to distinguish between human-written and AI-generated t
 ### Tech Stack
 `Python` | `torch` | `sklearn` | `transformers` | `numpy` | `pandas` |`matplotlib` | `PIL`| `fastapi`
 
-### Repository Structure  
+### Repository Structure
+  
 text-classifier-api  
   ├── app/  
   │   ├── bert_ai_human_classifier/   → model files  
@@ -28,8 +29,7 @@ text-classifier-api
 
 #### Below are sample outputs from the web page :
 
-| Results |
-|--------------|------------------|
+
 | ![](inference/human.png) | ![](inference/ai.png) |
 
 
